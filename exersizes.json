@@ -1,0 +1,81 @@
+{
+	"exersizes": [{
+		"id": 1,
+		"name": "push-up"
+	},{
+		"id": 2,
+		"name":"upright-row"
+	},{
+		"id": 3,
+		"name": "Kettle Bell Swing"
+	},{
+		"id": 4,
+		"name": "Squat"
+	},{
+		"id": 5,
+		"name": "Plyo Push-Up"
+	},{
+		"id": 6,
+		"name": "Pull-Up"
+	},{
+		"id": 7,
+		"name": "Supine Bicycle"
+	},{
+		"id": 8,
+		"name": "Lunge"
+	},{
+		"id": 9,
+		"name": "Incline Dumbell"
+	},{
+		"id": 10,
+		"name": "Front Leaning Rest Row"
+	},{
+		"id": 11,
+		"name": "Russian Twist"
+	},{
+		"id": 12,
+		"name": "Mountain Climbers"
+	},{
+		"id": 13,
+		"name": "Deadlift to Military Press"
+	},{
+		"id": 14,
+		"name": "Shrug"
+	},{
+		"id": 15,
+		"name": "Plank"
+	},{
+		"id": 16,
+		"name": "Side Lunge"
+	},{
+		"id": 17,
+		"name": "Dumbell Snatch"
+	},{
+		"id": 18,
+		"name": "Inchworms"
+	},{
+		"id": 19,
+		"name": "Burpee"
+	},{
+		"id": 20,
+		"name": "Sit-Up"
+	},{
+		"id": 21,
+		"name": "Flutter Kick"
+	},{
+		"id": 22,
+		"name": "Wheel"
+	},{
+		"id": 23,
+		"name": "Jacknives"
+	},{
+		"id": 24,
+		"name": "Ball Crunch"
+	},{
+		"id": 25,
+		"name": "Dips"
+	},{
+		"id": 26,
+		"name": "Rope Up"
+	}]
+}
