@@ -18,7 +18,7 @@ app.get( "/exersizes", ( req, res ) => {
 		let promise = exersizes.limit( 1 ).toArray();
 		promise.then( ( doc ) => {
 			let json = JSON.stringify( doc[0] );
-			res.send( `<h2>${json}</h2>` );
+			res.send( json );
 		});
 
 		db.close();

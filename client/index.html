@@ -11,6 +11,15 @@
 		<hr />
 		<div id="app">
 			<p>{{ message }}</p>
+			<p>
+				<button v-on:click="getExersizes">Get the Exersizes</button>
+				<div v-if="exersizes.length > 0">
+					<hr />
+					<ul v-for="e in exersizes">
+						<li>{{ e.name }}</li>
+					</ul>
+				</div>	
+			</p>
 		</div>
 	</body>
 </html>
