@@ -1,81 +1,95 @@
 {
 	"exersizes": [{
 		"id": 1,
-		"name": "push-up"
+		"name": "Incline Barbell Bench",
+		"type": "chest"
 	},{
 		"id": 2,
-		"name":"upright-row"
+		"name": "Incline Dumbbell Bench",
+		"type": "chest"
 	},{
 		"id": 3,
-		"name": "Kettle Bell Swing"
+		"name": "Flat Barbell Bench",
+		"type": "chest"
 	},{
 		"id": 4,
-		"name": "Squat"
+		"name": "Flat Dumbbell Bench",
+		"type": "chest"
 	},{
 		"id": 5,
-		"name": "Plyo Push-Up"
+		"name": "Reverse Grip Flat Bench",
+		"type": "chest"
 	},{
 		"id": 6,
-		"name": "Pull-Up"
+		"name": "Close Grip Flat Bench",
+		"type": "chest"
 	},{
 		"id": 7,
-		"name": "Supine Bicycle"
+		"name": "Reverse Grip Incline Bench",
+		"type": "chest"
 	},{
 		"id": 8,
-		"name": "Lunge"
+		"name": "Dips",
+		"type": "chest"
 	},{
 		"id": 9,
-		"name": "Incline Dumbell"
+		"name": "Chin Up",
+		"type": "arms"
 	},{
 		"id": 10,
-		"name": "Front Leaning Rest Row"
+		"name": "Hammer Curl",
+		"type": "arms"
 	},{
 		"id": 11,
-		"name": "Russian Twist"
+		"name": "Ez Bar Bicepts Curl",
+		"type": "arms"
 	},{
 		"id": 12,
-		"name": "Mountain Climbers"
+		"name": "Close Grip Bench",
+		"type": "arms"
 	},{
 		"id": 13,
-		"name": "Deadlift to Military Press"
+		"name": "Tricepts Dips",
+		"type": "arms"
 	},{
 		"id": 14,
-		"name": "Shrug"
+		"name": "Dumbbell Overhead Tricepts",
+		"type": "arms"
 	},{
 		"id": 15,
-		"name": "Plank"
+		"name": "DeadLift",
+		"type": "back"
 	},{
 		"id": 16,
-		"name": "Side Lunge"
+		"name": "Barbell Row",
+		"type": "back"
 	},{
 		"id": 17,
-		"name": "Dumbell Snatch"
+		"name": "Dumbbell Row",
+		"type": "back"
 	},{
 		"id": 18,
-		"name": "Inchworms"
+		"name": "Wide Grip Pull Up",
+		"type": "back"
 	},{
 		"id": 19,
-		"name": "Burpee"
+		"name": "Barbell Back Squat",
+		"type": "legs"
 	},{
 		"id": 20,
-		"name": "Sit-Up"
+		"name": "Barbell Front Squat",
+		"type": "legs"
 	},{
 		"id": 21,
-		"name": "Flutter Kick"
+		"name": "Barbell Lunge",
+		"type": "legs"
 	},{
 		"id": 22,
-		"name": "Wheel"
+		"name": "Bulgarian Split Squat",
+		"type": "legs"
 	},{
 		"id": 23,
-		"name": "Jacknives"
-	},{
-		"id": 24,
-		"name": "Ball Crunch"
-	},{
-		"id": 25,
-		"name": "Dips"
-	},{
-		"id": 26,
-		"name": "Rope Up"
+		"name": "Hip Thrust",
+		"type": "legs"
 	}]
 }

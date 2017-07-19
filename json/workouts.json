@@ -1,0 +1,18 @@
+{
+  "workouts": [{
+    "date": 1498795200,
+    "exersizes": [{
+      "id": 9,
+      "sets": [{
+        "weight": "BW",
+        "reps": 8
+      },{
+        "weight": "BW",
+        "reps": 8
+      },{
+        "weight": "BW",
+        "reps": 8
+      }]
+    }]
+  }]
+}
