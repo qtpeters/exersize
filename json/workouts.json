@@ -1,5 +1,6 @@
 {
   "workouts": [{
+
     "date": 1498795200,
     "exersizes": [{
       "id": 9,
@@ -11,6 +12,31 @@
         "reps": 8
       },{
         "weight": "BW",
+        "reps": 8
+      }]
+
+    },{
+      "id": 10,
+      "sets": [{
+        "weight": "35",
+        "reps": 8
+      },{
+        "weight": "35",
+        "reps": 8
+      },{
+        "weight": "35",
+        "reps": 8
+      }]
+    },{
+      "id": 11,
+      "sets": [{
+        "weight": "60",
+        "reps": 8
+      },{
+        "weight": "60",
+        "reps": 8
+      },{
+        "weight": "60",
         "reps": 8
       }]
     }]

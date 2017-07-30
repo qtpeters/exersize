@@ -18,3 +18,4 @@ database=workout
 
 import ${mi} ${database} routines
 import ${mi} ${database} exersizes
+import ${mi} ${database} workouts
