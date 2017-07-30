@@ -1,0 +1,103 @@
+
+  /** Nissint Master Css **/
+
+  @font-face {
+     font-family: PrimeRegular;
+     src: url(../fonts/PrimeRegular.otf) format("opentype");
+  }
+
+  @font-face {
+     font-family: PrimeLight;
+     src: url(../fonts/PrimeLight.otf) format("opentype");
+  }
+
+  /* EFFECTS */
+
+  .emboss {
+    text-shadow: 0 -4px 3px rgba(0, 0, 0, 0.3), 0 3px 4px 
+      rgba(255, 255, 255, 0.2);
+  }
+
+  /* ELEMENT STYLES */
+
+  .nissint-master {
+     font-family: 'Primelight', proxima-nova, 
+      "Helvetica Neue", Helvetica, Roboto, 
+      Arial, sans-serif;
+     color: #2B5865;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #8FBDC2;
+  }
+
+  .section-start {
+     width: 60%;
+     margin: 0 auto;
+     padding-top: 80px;
+     padding-bottom: 50px;
+  }
+
+  .section-start p {
+     text-align: center;
+     text-justify: inter-word;
+     font-size: 21px;
+     font-family: 'PrimeLight', proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+     font-style: italic;
+     font-weight: bold;
+     color: #2B5865;
+  }
+
+  .section {
+     width: 80%;
+     margin: 0 auto;
+     padding-top: 50px;
+     padding-bottom: 50px;
+  }
+
+  .subsection h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #2B5865;
+    padding: 5px 5px 5px 5px;
+    height: 170px;
+  }
+
+  .subsection h4 {
+     font-size: 1.3em;
+     color: #FF7900;
+     /*color: #FF7900; Nissint Orange */
+  }
+
+  .subsection p {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+
+  .seperator {
+     width: 300px;
+  }
+
+  .top-picture img {
+    /*display: inline-block;*/
+    height: 85vh;
+    width: 100%;
+  }
+
+  .top-picture h2 {
+    /*display: inline-block;*/
+    font-family: 'PrimeLight', proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: #FF7900;
+  } 
+
+  .seperator {
+  margin-top: 20vh;
+  }
