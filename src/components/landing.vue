@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    Hello Vue.js
+    <h3>Hello Vue.js</h3>
     <hr />
   </div>
 </template>

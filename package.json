@@ -71,6 +71,7 @@
     "vue-template-compiler": "^2.1.10",
     "webpack": "^2.2.0-rc.3",
     "webpack-clean": "^1.0.0",
+    "webpack-dev-server": "^2.6.1",
     "which": "^1.2.12"
   }
 }
