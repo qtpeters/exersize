@@ -11,7 +11,7 @@ const url = `mongodb://localhost:27017/${database}`
 
 const fs = require( 'fs' );
 
-let port = 6699;
+let port = process.env.PORT || 6699;
 
 app.use( express.static( 'client' ) );
 app.get( "/exersizes/:how", ( req, res ) => {
