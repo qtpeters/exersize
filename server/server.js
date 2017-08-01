@@ -3,10 +3,6 @@
 
 const dbApi = require( './components/database' )
 
-dbApi.print();
-
-process.exit( 0 );
-
 const fs = require( 'fs' );
 const express = require( 'express' );
 const app = express();
@@ -14,8 +10,20 @@ const app = express();
 const port = process.env.PORT || 6699;
 
 app.use( express.static( 'client' ) );
-app.get( "/exersizes", ( req, res ) => {
-  return "None yet!"
+
+app.get( "/exercises", ( req, res ) => {
+  
+  dbApi.getExercises().then( ( exs ) => {
+    const mappedExs = exs.map( ( ex ) => {
+      let dvs = ex.dataValues;
+      return { 
+        name: dvs.name, 
+        type: dvs.type 
+      };
+    });
+    
+    res.send( JSON.stringify( mappedExs ) );
+  });
 });
 
 app.listen( port, () => {

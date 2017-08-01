@@ -9,8 +9,8 @@ module.exports = ( () => {
   });
 
   const api = {
-    print: () => {
-      console.log( dbModel );
+    getExercises: () => {
+      return dbModel.ExerciseSelection.findAll();
     } 
   };  
  
