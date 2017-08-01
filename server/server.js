@@ -21,7 +21,7 @@ app.get( "/exercises", ( req, res ) => {
         type: dvs.type 
       };
     });
-    
+   
     res.send( JSON.stringify( mappedExs ) );
   });
 });
