@@ -6,8 +6,8 @@
   "author": "Quinn Peters",
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js --config webpack.config.js",
-    "start": "heroku local web -p 6699",
-    "all": "npm run build; npm run start"
+    "heroku": "heroku local web -p 6699",
+    "wpdev": "./node_modules/.bin/webpack-dev-server --content-base client/"
   },
   "repository": {
     "url": "https://github.com/nissint/website.git",
@@ -23,6 +23,7 @@
     "sequelize": "^4.4.2",
     "sqlite3": "^3.1.8",
     "vue": "^2.1.10",
+    "vue-material": "^0.7.4",
     "vue-router": "^2.3.0",
     "vuex": "^2.2.1"
   },
