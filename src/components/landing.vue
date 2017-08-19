@@ -1,47 +1,34 @@
 
 <template>
-  <div class="container">
-    <md-layout md-gutter md-column>
-      
-      <md-layout md-row md-gutter class="header topcolor">
-      </md-layout>
+  <div class="app-viewport" id="file-list">
+    
+    <md-whiteframe md-elevation="3" class="main-toolbar">
+      <md-toolbar class="md-large">
+        <div class="md-toolbar-container">
+    
+          <span style="flex: 1"></span>
+    
+          <md-button class="md-icon-button">
+            <md-icon>search</md-icon>
+          </md-button>
+    
+          <md-button class="md-icon-button">
+            <md-icon>view_module</md-icon>
+          </md-button>
+        </div>
+    
+        <div class="md-toolbar-container">
+    
+          <md-button class="md-fab md-mini">
+            <md-icon>add</md-icon>
+          </md-button>
+        </div>
+      </md-toolbar>
+    </md-whiteframe>
+    
+    <main class="main-content">
 
-      <md-layout md-row md-gutter class="controls">
-
-        <md-layout md-column md-flex="5">
-
-          <md-layout md-row class="topcolor">
-          </md-layout>
-
-          <md-layout md-row class="bottomcolor">
-            <md-button class="md-icon-button md-raised button md-primary">
-              <md-icon>+</md-icon>
-            </md-button>
-          </md-layout>
-
-        </md-layout>
-
-        <!-- md-layout class="button" md-flex="10">
-        </md-layout -->
-        
-        <md-layout md-column>
-
-          <md-layout md-row class="topcolor">
-          </md-layout>
-
-          <md-layout md-row class="bottomcolor">
-          </md-layout>
-
-        </md-layout>
-        
-
-      </md-layout>
-
-      <md-layout md-row md-gutter class="workout-list bottomcolor">
-        
-      </md-layout>
-
-    </md-layout>
+    </main>
   </div>
 </template>
 
@@ -63,42 +50,73 @@
 
 </script>
 
-<style scoped>
+<style>
  
   body {
     height: 100vh;
     margin: 0px;
   }
  
-  div.container {
-    height: 100vh;
-    margin: 0px;
+  html,
+  body,
+  .app-viewport {
+    height: 100%;
+    overflow: hidden;
   }
 
-  .topcolor {
-    background-color: #A2A2A7;
-  }
- 
-  .bottomcolor {
-    background-color: #B9BCEE;
+  .app-viewport {
+    display: flex;
+    flex-flow: column;
   }
 
-  .button {
+  .main-toolbar {
     position: relative;
-    top: -21px;
-    left: 25px;
+    z-index: 10;
   }
 
-  .header {
-    height: 30vh;
+  .md-fab {
+    margin: 0;
+    position: absolute;
+    bottom: -20px;
+    left: 16px;
+    z-index: 10;
+    
+    .md-icon {
+      color: #fff;
+    }
   }
 
-  .controls {
-    height: 10vh;
+  .md-title {
+    padding-left: 8px;
+    color: #fff;
   }
 
-  .workout-list {
-    height: 60vh;
+  .main-content {
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+  }
+
+  .md-list-action .md-icon {
+    color: rgba(#000, .26);
+  }
+
+  .md-avatar-icon .md-icon {
+    color: #fff !important;
+  }
+
+  .md-sidenav .md-list-text-container > :nth-child(2) {
+    color: rgba(#fff, .54);
+  }
+
+  .md-account-header {
+    .md-list-item:hover .md-button:hover {
+      background-color: inherit;
+    }
+
+    .md-avatar-list .md-list-item-container:hover {
+      background: none !important;
+    }
   }
 
 </style>
