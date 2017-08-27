@@ -7,7 +7,7 @@
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js --config webpack.config.js",
     "heroku": "heroku local web -p 6699",
-    "wpdev": "./node_modules/.bin/webpack-dev-server --content-base client/"
+    "serve": "./node_modules/.bin/webpack-dev-server --content-base client/"
   },
   "repository": {
     "url": "https://github.com/nissint/website.git",

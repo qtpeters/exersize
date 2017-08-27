@@ -19,7 +19,7 @@
     
         <div class="md-toolbar-container">
     
-          <md-button class="md-fab md-mini">
+          <md-button @click="addWorkout" class="md-fab md-mini">
             <md-icon>add</md-icon>
           </md-button>
         </div>
@@ -27,7 +27,7 @@
     </md-whiteframe>
     
     <main class="main-content">
-
+      <workout-form v-if="state.showWoForm"></workout-form>
     </main>
   </div>
 </template>
@@ -35,14 +35,29 @@
 <script>
 
   import WorkoutList from './workoutList.vue'
+  import WorkoutForm from './workoutform.vue'
+
   import { mapGetters } from 'vuex'
 
   export default {
     name: 'landing',
+    data() {
+      return {
+        state: {
+          showWoForm: false
+        }
+      }
+    },
     components: {
-      workoutList: WorkoutList
+      'workout-list': WorkoutList,
+      'workout-form': WorkoutForm
     },
     computed: mapGetters(['getExercises']),
+    methods: {
+      addWorkout() {
+        this.state.showWoForm = true;
+      }
+    },
     created() {
       //this.$store.dispatch( 'fetchExercises' );
     }
