@@ -32,9 +32,10 @@ export default new Vuex.Store({
 
   getters: {
    
-    getExercises( state ) {
-      return state.exercises;
+    getExercises({ exercises }) {
+      return exercises;
     }
+
   }
 });
 
