@@ -1,0 +1,37 @@
+
+
+1. See list of recent workouts
+  - Identifiable by:
+    - Date
+    - Arbaturary workout name. 
+    - Flag to represent type of cardio performed
+      - Flag can be a square, probably should be
+      - Orange if HIIT
+      - Green if LISS
+      - Transparent ( Non-existant? ) if no cardio was performed
+    - Eventually list can be filtered and a date query can be made.
+
+2. Adding a workout
+  - Click + button to create a workout
+    - Workout form appears
+      - The workout form has:
+        - A Date field
+        - Workout name ( String )
+        - The Workout form will have an area to display subforms that represent exercises:
+          - The exercise form will have an "Add Exercise" form field that searches 
+            and displays a list of exercises based on full text search ( preferrably guessing what the user means )
+          - When the form field has a single, selected exercise, the user can press enter or click a button to 
+            the right of the field that will add an exercise subform to the subform displayable area
+          - The exercise subform will have selectable rows as well as for fields
+            - The subform will display the name of the exercise
+            - The subform will have a plus button to add a set
+              - The subform ( which reprenents an exercise ) 
+              - When the "Add Set" button is clicked, the heavest weight last recorded by this exercise will occupy
+                the first of two form fields and the second will take an integer representing the number of repetitions
+          - The form will have a "Remove exercise button" that will issue a warning when clicked
+            to confirm that the user wants to delete a selected exercise.
+
+    - Date needs to be editable in case this is a retroactive workout addition
+    - There can only be one workout per day, if a past date is typed into the date field
+      and there is already a workout stored for that day, the workout from that day will
+      appear in read only form.  
