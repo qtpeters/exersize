@@ -57,38 +57,58 @@
 		"type": "arms"
 	},{
 		"id": 15,
+		"name": "Military Press",
+		"type": "sholders"
+	},{
+		"id": 16,
+		"name": "Barbell Rear Delt Row",
+		"type": "sholders"
+	},{
+		"id": 17,
+		"name": "Arnold Press",
+		"type": "sholders"
+	},{
+		"id": 18,
+		"name": "Dumbbell Front Raise",
+		"type": "sholders"
+	},{
+		"id": 19,
+		"name": "Dumbbell Side Lateral Raise",
+		"type": "sholders"
+	},{
+		"id": 20,
 		"name": "DeadLift",
 		"type": "back"
 	},{
-		"id": 16,
+		"id": 21,
 		"name": "Barbell Row",
 		"type": "back"
 	},{
-		"id": 17,
+		"id": 22,
 		"name": "Dumbbell Row",
 		"type": "back"
 	},{
-		"id": 18,
+		"id": 23,
 		"name": "Wide Grip Pull Up",
 		"type": "back"
 	},{
-		"id": 19,
+		"id": 24,
 		"name": "Barbell Back Squat",
 		"type": "legs"
 	},{
-		"id": 20,
+		"id": 25,
 		"name": "Barbell Front Squat",
 		"type": "legs"
 	},{
-		"id": 21,
+		"id": 26,
 		"name": "Barbell Lunge",
 		"type": "legs"
 	},{
-		"id": 22,
+		"id": 27,
 		"name": "Bulgarian Split Squat",
 		"type": "legs"
 	},{
-		"id": 23,
+		"id": 28,
 		"name": "Hip Thrust",
 		"type": "legs"
 	}]
